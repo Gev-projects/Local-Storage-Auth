@@ -1,0 +1,100 @@
+.auth-page {
+  background-color: #009ddf;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 0 12px;
+}
+
+.sign-up {
+  max-width: 781px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.sign-in {
+  max-width: 480px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.auth-title {
+  color: #28a4da;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.user-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.sign-up-form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign-up-form-container .custom-input-container {
+  max-width: 340px;
+}
+
+.sign-in-form-container {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  height: 250px;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+}
+
+.sign-up-submit-btn {
+  margin: 80px auto 4px;
+  display: block;
+  max-width: 196px;
+  width: 100%;
+}
+
+.form-account-text {
+  text-align: center;
+}
+
+.form-account-text a {
+  color: #28a4da;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.remember-checkbox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.remember-checkbox .custom-input-container {
+  display: contents;
+}
